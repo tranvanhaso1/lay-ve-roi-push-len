@@ -13,6 +13,16 @@ header {
 
 }
 
+<<<<<<< HEAD
+=======
+.sticky-bar {
+/*position:fixed;
+top:0;
+display:block;
+z-index:999;*/
+}
+
+>>>>>>> 680e7d41549e07ea194decb9fd29ce462115114f
     header .bg-main {
         background-color: #333333;
         height: 102px;
@@ -41,11 +51,16 @@ header {
     }*/
 /*hết hình nền*/
 
+<<<<<<< HEAD
 .navbar-fixed-top {
     opacity: unset !important;
 }
 
 /*Bắt đầu xử lý phần bên trái*/
+=======
+/*Bắt đầu xử lý phần bên trái*/
+
+>>>>>>> 680e7d41549e07ea194decb9fd29ce462115114f
 .wrapper-logo {
     display: flex;
     align-items: center;
@@ -176,7 +191,10 @@ header {
     padding-left: 8.5%; /*đẩy khối*/
 }
 
+<<<<<<< HEAD
 /*credit 2 title*/
+=======
+>>>>>>> 680e7d41549e07ea194decb9fd29ce462115114f
 #bg-down .title {
     padding-bottom: 19px;
     padding-top: 75px;
@@ -218,8 +236,11 @@ header {
 /*create-circle-content*/
 
 #bg-down .static-overplay {
+<<<<<<< HEAD
     position: relative;
     display: block;
+=======
+>>>>>>> 680e7d41549e07ea194decb9fd29ce462115114f
     overflow: visible;
 }
 

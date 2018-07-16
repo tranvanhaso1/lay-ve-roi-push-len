@@ -4,10 +4,19 @@ body {
     background-color: #fff;
 }
 
+<<<<<<< HEAD
 .static-overplay{
     /*position: relative;
     display: block;
     overflow: hidden;*/
+=======
+
+
+.static-overplay {
+    position: relative;
+    display: block;
+    overflow: hidden;
+>>>>>>> 680e7d41549e07ea194decb9fd29ce462115114f
 }
 
 a {
