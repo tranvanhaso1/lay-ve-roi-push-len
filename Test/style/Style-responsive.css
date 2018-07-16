@@ -1,0 +1,258 @@
+﻿/*#region header */
+
+@media (min-width: 320px) {
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+
+    header .bg-main {
+        height: 70px;
+    }
+
+    .logo{
+        display:flex;
+    }
+
+    .wrapper-logo {
+        margin-left: 0%; /*đẩy khối*/
+        margin: auto;
+        line-height: 70px;
+
+        /*not working IE*/
+        /*width: -moz-fit-content;
+        width: -webkit-fit-content;
+        width: fit-content;*/
+        /*just only IE*/
+        /*display: -ms-grid;
+        -ms-grid-columns: min-content;*/
+    }
+
+    .wrapper-cta {
+        line-height: 70px;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 920px){
+
+    .wrapper-logo .box-2 h1 {
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    .wrapper-logo .box-3 a {
+        font-size: 1.2vw;
+        font-weight: 600;
+    }
+
+    .call-to-action .cta-text a {
+        font-size: 2.5vw;
+        padding: 2.5vw 2vw;
+    }
+
+}
+
+@media (min-width: 560px) {
+}
+
+@media (min-width: 768px) {
+
+    .call-to-action .cta-text a {
+        font-size: 2.5vw;
+        padding: 2.0vw 2vw;
+    }
+}
+
+@media (min-width: 992px) {
+
+
+}
+
+@media (min-width: 1200px) {
+    .call-to-action .cta-text a {
+        font-size: 1.5vw;
+        padding: 1.5vw 2vw;
+    }
+}
+
+@media (min-width: 1400px) {
+
+}
+
+/*#endregion */
+
+/*#region phần dưới header */
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+
+    .bg-down-main {
+        padding-left: 0%;
+        margin: auto;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .wrapper-credit-card {
+        display: inline-flex;
+        padding: 0 10px;
+    }
+
+    #bg-down .title span:first-child {
+        font-size: 6.6vw;
+    }
+
+    #bg-down .title span:last-child {
+        font-size: 4.4vw;
+    }
+}
+
+/*resize: circle-multiline*/
+
+@media only screen and (max-width: 480px) /*and (min-width: 320px)*/ and (min-width: 0px) {
+    #bg-down .overplay {
+        display: none;
+    }
+}
+/*#endregion */
+
+/*#region call-to-action-2 */
+
+@media only screen and (max-width: 768px) and (min-width: 320px){
+
+    .center {
+        top: 102px;
+    }
+
+    .center .circle-cta-2 {
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+        .center .cta-2 a {
+            letter-spacing: 0px;
+        }
+
+}
+
+@media only screen and (max-width: 560px) /*and (min-width: 320px)*/ and (min-width: 0px) {
+
+    .center .cta-2 {
+        display: none;
+    }
+
+    .center .caret-cta-2 {
+        display: none;
+    }
+}
+
+/*#endregion */
+
+/*#region main */
+
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+
+    main .align-article {
+        margin-left: -15px;
+        margin-right: -15px;
+        /*margin-bottom: 30px;*/
+    }
+
+    main .article-main-2 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/*#endregion */
+
+/*#region only-IE */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    main {
+        background: antiquewhite;
+    }
+}
+
+
+/*#endregion */
+
+
+
+
+/*#region template-resposive */
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+
+}
+
+@media (min-width: 320px) {
+}
+
+@media (min-width: 560px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
+
+
+/*#region Apply style ONLY on IE */
+
+@media screen and (min-width:0\0) and (min-resolution: +72dpi) {
+
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+}
+
+/*_:-ms-fullscreen, :root .circle-multiline {
+    padding-top: 30px;
+}*/
+
+@supports (-ms-accelerator:true) {
+
+}
+
+@media screen and (min-width:640px), screen\9 {
+}
+
+@media screen\0 {
+
+}
+
+@media screen\9 {
+}
+
+@media \0screen {
+}
+
+@media \0screen\,screen\9 {
+}
+
+@media screen and (min-width:0\0) {
+}
+
+@media screen and (min-width: 640px), screen\9 {
+}
+
+@media \0screen\0,screen\9,screen and (min-width:640px) {
+}
+
+/*#endregion */
+
+/*#endregion */
