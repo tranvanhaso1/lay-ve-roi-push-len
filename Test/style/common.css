@@ -1,0 +1,50 @@
+﻿
+body {
+    font-size: 100%;
+    background-color: #fff;
+}
+
+
+
+.static-overplay {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+    a:hover {
+        color: #d94e09;
+        text-decoration: none;
+        cursor:pointer;
+    }
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p {
+    color: #000000;
+}
+
+span {
+    color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}

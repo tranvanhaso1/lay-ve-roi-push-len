@@ -1,0 +1,168 @@
+﻿
+/*call-to-action-lan-1*/
+
+.call-to-action .wraper-cta {
+    display: flex;
+    align-items: center;
+    line-height: 102px;
+    padding-left: 113px;
+    float:right;
+    margin-right:110px;
+}
+
+    .call-to-action .wraper-cta::after {
+        content: "";
+        position: absolute;
+        background-color: #d94e09;
+        width: 361px;
+        height: 77px;
+        border-radius: 15px;
+        z-index: -99;
+    }
+
+.call-to-action .wraper-cta > div {
+    float: left;
+}
+.call-to-action .cta-text {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    padding-left:30px;
+}
+.call-to-action .cta-caret img {
+    width: 10px;
+    height: auto;
+    margin-left:35px;
+}
+
+
+
+
+
+/*header .call-to-action .bg-orange {
+        float: right;
+        margin-right: 73px;
+        background-color: #d94e09;
+    }
+
+
+    header .call-to-action span:first-child {
+        color: #fff;
+        font-size: 25px;
+        font-weight: 600;
+        background-color: #d94e09;
+        border-radius: 15px;
+        display: inline;
+        padding: 25px 77px;
+        padding-left: 36px;
+    }
+
+    header .call-to-action .overplay {
+        position: absolute;
+        bottom: 6px;
+        right: 35px;
+    }
+
+    header .call-to-action img {
+        width: 10px;
+        height: auto;
+        line-height: 102px;
+    }*/
+
+
+
+
+/*call-to-action-center*/
+
+
+.center {
+    margin: auto;
+    width: 43%;
+    padding: 10px;
+    background-color: #d94e09;
+    border-radius: 15px;
+    margin-top: -49px;
+}
+
+    .center > div {
+        display: flex;
+        align-items: center;
+        padding: 0 40px;
+    }
+
+    .center .circle-cta-2 {
+        background-color: #fff;
+        border: 5px solid #d94e09;
+        border-radius: 50px;
+        box-shadow: 0 0 0 3px #fff;
+        height: 90px;
+        width: 90px;
+    }
+
+    .center .circle-border {
+        position: relative;
+    }
+        .center .circle-border .free-text {
+            position: absolute;
+            top: 20px;
+            left: 14px;
+            color: #000000;
+            font-size: 30px;
+            font-weight: 900;
+        }
+
+    .center .cta-2 a {
+        color: #fff;
+        font-size: 40px;
+        letter-spacing: -4px;
+        font-weight:900;
+        padding:0 20px;
+    }
+
+    .center .caret-cta-2 img {
+        width:15px;
+    }
+
+
+@media (min-width: 320px) {
+
+}
+
+
+@media (min-width: 560px) {
+    .center .cta-2 a {
+        color: #fff;
+        font-size: 2vw;
+        letter-spacing: -4px;
+        font-weight: 900;
+        padding: 0 20px;
+    }
+}
+
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+    /*.center .cta-2 a {
+        color: #fff;
+        font-size: 2.4vw;
+        letter-spacing: -4px;
+        font-weight: 900;
+        padding: 0 20px;
+    }*/
+}
+@media (min-width: 1400px) {
+    .center .cta-2 a {
+        color: #fff;
+        font-size: 2.5vw;
+        letter-spacing: -4px;
+        font-weight: 900;
+        padding: 0 20px;
+    }
+}
